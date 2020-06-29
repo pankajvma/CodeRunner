@@ -1,0 +1,124 @@
+ body{
+                padding:0;
+                margin: 0;
+                font-family:sans-serif;
+            }
+            #header
+            {
+                background-color: #EEE;
+                padding:5px;
+                height:30px;
+            }
+            #logo
+            {
+                float:left;
+                font-weight: bold;
+                font-size:150%;
+            }
+            #buttonContainer
+            {
+                margin:0 auto;
+                width:230px;
+                
+            }
+            .toggle
+            {
+                float:left;
+                padding:5px;
+                border:1px solid grey;
+                border-right:none;
+                font-size: 90%;
+            }
+            .lout
+            {
+                float:right;
+                padding:5px;
+                border:1px solid grey;
+                border-top-right-radius: 4px;
+                border-bottom-right-radius: 4px;
+                background-color: orangered;
+                color:white;
+            }
+            a
+            {
+                text-decoration: none;
+                color:white;
+            }
+            .lout:hover
+            {
+                background-color: red;
+            }
+            .back
+            {
+                float:right;
+                padding:5px;
+                border:1px solid grey;
+                border-top-left-radius: 4px;
+                border-bottom-left-radius: 4px;
+                background-color: green;
+                color:white;
+            }
+            .back:hover
+            {
+                background-color: darkgreen;
+            }
+            #html
+            {
+                border-bottom-left-radius: 4px;
+                border-top-left-radius: 4px
+            }
+            #op
+            {
+                border-top-right-radius: 4px;
+                border-bottom-right-radius: 4px;
+                border-right:1px grey solid;
+            }
+            .toggle:hover{
+                cursor:pointer;
+            }
+            span
+            {
+                cursor:pointer;
+            }
+            .active
+            {
+                background-color: #e8f2ff;
+            }
+            .toggle:active{
+                
+            }
+            .heighlightedColor
+            {
+                background-color: grey;
+            }
+            textarea
+            {
+                resize:none;
+                border:none;
+            }
+            .panel
+            {
+                float:left;
+
+
+            }
+            .hidden
+            {
+            display:none;
+            }
+            iframe
+            {
+               border:none;
+            }
+            #htmlPanel
+            {
+                background-color: #f9fcb0;
+            }
+            #cssPanel
+            {
+                background-color: #e3fcf6;
+            }
+            #jsPanel
+            {
+                background-color: #ffedd6;
+            }
